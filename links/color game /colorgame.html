@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		COLOR GAME
+	</title>
+	<link rel="stylesheet" type="text/css" href="colorgame.css">
+
+</head>
+<body>
+  <h1>The Great <br>
+    <span id="colordisplay"></span><br>
+     Color Game
+  </h1>
+
+  
+  <div id = "stripe">
+    <button id ="reset">New Colors</button>
+    <span id = "try"></span>
+    <button id = "easybtn" >Easy</button>
+    <button id = "hardbtn" class = "selected" >Hard</button> 
+  </div>
+
+  <div>
+  <div class="chalbe" id = "info">
+     <ul><span>INSTRUCTIONS</span>
+     <li>Click on the color that matches given RGB color code.</li>
+     <li><span class = "infobtn">HARD</span> mode will give you six color options. </li> 
+     <li><span class = "infobtn">EASY</span> mode will give you three color options</li>
+     <li>Click on <span class = "infobtn">NEW COLORS</span> to change colors.</li>
+    </ul> 
+    </div>
+  
+  <div class="chalbe" id=container>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+    </div>
+    </div>
+<script src="colorgame.js"></script>
+</body>
+</html>

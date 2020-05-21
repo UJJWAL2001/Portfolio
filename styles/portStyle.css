@@ -1,0 +1,340 @@
+:root{
+    color: black;
+    font-size: 16px;
+    font-family: 'Anton', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    max-width: 94%;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e24;
+}
+
+.part{
+    margin-left: 4rem;
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+    height: 0.25rem;
+}
+
+  
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+hr{
+    background-color: #666;
+    height: 1px;
+    width: 70%;
+    margin-right: 2rem;
+    margin-left: 5rem;
+}
+
+
+/* NAV BAR */
+
+.nav-list{
+    position: fixed;
+    width: 4rem;
+    background-color: #222;
+    height: 100vh;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+}
+
+.dir-text{
+    color: white;
+    position: absolute;
+    left: 0.9rem;
+    font-size: 0.8rem;
+    opacity: 0;
+    transition: 0.2s;
+    transition-delay: 0.2s;
+}
+
+
+i{
+    color: #444;
+    font-size: 1.5rem;
+    transition: 0.2s;
+   
+}
+
+.nav-list-items{
+    margin: 0.5rem ;
+}
+
+.nav-list-items:hover dir{
+    color: #08fdd8;
+}
+
+.nav-list-items:hover i.dir{
+    opacity: 0;
+}
+
+
+.nav-list-items:hover .dir-text{
+    opacity: 1;
+}
+
+#home{
+    margin-top: 9rem;
+}
+
+li#logo{
+    border: 1px solid #111;
+    padding: 1rem 0.8rem;
+    background-color: #111;
+}
+
+#contacts{
+    margin-top: 5rem;
+}
+
+.h2{
+    margin-left:2px;
+    font-weight: 400;
+    color: whitesmoke;
+    font-family: 'Anton', sans-serif;
+    font-size: 2.6rem;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+
+/* HOME */
+
+.home-head:hover{
+    color: #08fdd8
+}
+
+.syntax{
+    color: #555;
+    font-size: 1.3rem;
+    font-family: 'La Belle Aurore', cursive;
+}
+
+#home-text{
+    margin :3rem auto;
+
+}
+
+svg{
+    margin-left: 3rem;
+}
+
+@media(max-width : 536px){
+    svg{
+        margin-left: 1.7rem;
+    }
+}
+
+.home-mintext{
+    margin-left: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+}
+
+#home-anime{
+    padding: 10% 10%;
+}
+
+.square{
+    margin: 0.2%;
+    padding-bottom: 8%;
+    width: 8%;
+    display: inline-block;
+}
+
+.heart{
+    background-color: #08fdd8;
+}
+
+@media(max-width : 890px) and (min-width : 839px){
+    .square{
+        padding-bottom: 7.5%;
+        width:7.5%
+    }
+}
+
+@media (max-width: 838px) and (min-width : 768px) {
+    .square{
+        padding-bottom: 7.6%;
+        width: 7.6%;
+    }
+}
+
+@media (max-width: 767px){
+    .square{
+        padding-bottom: 8%;
+        width: 8%;
+    }
+}
+
+/* About me */
+
+.about-head:hover{
+    color: #8f08fd;
+}
+
+p.about-me-info{
+    color: whitesmoke;
+    margin-left: 2.8rem;
+    width: 64%;
+    letter-spacing: 1px;
+}
+
+.circle{
+    width: 8%;
+    background-color: #8f08fd;
+    border: 1px solid transparent;
+    padding-bottom: 8%;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#about-anime{
+    padding: 15% 10%;
+}
+
+@media( max-width : 767px){
+    #about-text{
+        margin-top: 48%;
+    }
+  
+}
+
+/* skills */
+
+.skill-head:hover{
+    color: #08fd14;
+}
+
+#skill-anime{
+    padding: 15% 10%;
+}
+
+.skill{
+    border: 2px solid #08fd14;
+    border-radius: 5px;
+    width: 30%;
+    margin: 1%;
+    text-align: center;
+    color: #08fd14;
+    display: inline-block;
+
+}
+
+@media( max-width : 1199px){
+   
+    #skill-anime{
+        padding: 20% 3%;
+    }
+}
+
+
+
+/* Project */
+
+.project-head:hover{
+    color: #fd8b08 ;
+}
+
+.card{
+    background-color: #1e1e24 ;
+    border: 1px solid #fd8b08;
+    padding-top: 15px;
+}
+
+.card:hover{
+    border-width: 2px;
+}
+
+.card-body{
+    background-color: #1e1e24;
+}
+
+button:active{
+    background-color: #fd8b08;
+    outline: none;
+    border: 1px slid #fd8b08 ;
+}
+
+.card-title{
+    color: whitesmoke;
+}
+
+.card-text{
+    color: whitesmoke;
+}
+
+.btn-primary{
+    background-color: #1e1e24;
+    border-color: #fd8b08;
+    color: #fd8b08;
+    outline: 0;
+}
+
+.btn:hover{
+    color: whitesmoke;
+    background-color:rgba(253,139,8, 0.3);
+}
+
+/* Contact */
+
+.contact-head:hover{
+    color: #0c08fd;
+}
+
+.contact-form{
+    background-color: #444;
+    border: none;
+    border-bottom: 3px solid #0c08fd;
+    padding: 3px 15px;
+    color: whitesmoke;
+}
+
+input{
+    height: 2.5rem;
+}
+
+.contact-form:focus{
+    outline: none;
+}
+
+.btn-outline-primary:hover{
+    background-color: #0c08fd ;
+}
+  
+/* Changing Sections */
+
+#ABOUT{
+    display: none;
+    
+}
+
+#SKILL{
+    display: none;
+}
+
+#project{
+    display: none;
+}
+
+#contact{
+    display: none;
+}

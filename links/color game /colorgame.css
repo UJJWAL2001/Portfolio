@@ -1,0 +1,98 @@
+body{ background-color: #232323;
+	  margin: 0px;
+	  font-family: "Montserrant","Avenir";
+}
+h1{
+	color: white;
+	line-height: 1.1;
+	font-weight: normal;
+	text-align: center;
+	background-color: steelblue;
+	margin: 0px;
+	text-transform: uppercase;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	transition: background-color 0.3s;
+	
+}
+button:focus {outline:0;}
+button{
+	background: none;
+	text-transform: uppercase;
+	border: none;
+	height: 100%;
+	font-family: "Montserrant","Avenir";
+	font-weight: normal;
+	font-size: larger;
+	color: steelblue;
+	letter-spacing: 1px;
+	transition: all 0.3s;
+}
+
+#try{
+	display: inline-block;
+	width: 20%;
+}
+
+button:hover{
+	background-color: steelblue;
+	color: white;
+}
+
+.selected{
+	background-color: steelblue;
+	color: white;
+}
+
+#colordisplay{
+	font-size: 3.5rem;
+}
+
+#stripe{
+	background: white;
+	height: 30px;
+	text-align: center;
+}
+
+.square{
+	background: purple;
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15%;
+	transition: background-color 0.3s;
+    
+}
+li{
+	margin-top: 3px;
+}
+ul span{
+
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+.infobtn{
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#container{
+	width: 600px;
+	margin-top: 20px ;
+    margin-left: 3.5%;	
+}
+
+#info{
+	color:white;
+	max-width: 23%;
+	margin: 20px;
+    
+	text-align: left;
+}
+
+.chalbe{
+	float: left;
+}
+
