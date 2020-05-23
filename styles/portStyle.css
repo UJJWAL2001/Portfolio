@@ -115,6 +115,42 @@ li#logo{
     display: inline-block;
 }
 
+@media(max-width : 720px )
+{
+    .nav-list{
+        top: 0;
+        flex-direction: row;
+        width: 100vw;
+        height: 4rem;
+        position: absolute;
+    }
+
+    li#logo{
+        padding: 0.5rem 0.5rem ;
+    }
+
+    #home, #contacts{
+        margin: 8px;
+        margin-left: auto;
+    }
+
+   .nav-list-items{
+       margin-right: 1rem;
+       position: relative;
+   }
+
+   .part{
+       padding-top: 4rem;
+       margin-left: 1.2rem;
+   }
+
+   .dir-text{
+       left: 0;
+   }
+   
+}
+
+
 
 /* HOME */
 
