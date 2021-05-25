@@ -1,0 +1,55 @@
+body{
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#GreedyAlgo {
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    margin: 100px auto;
+    padding: 15px;
+    width: 40%;
+    height: 65vh;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+#GreedyAlgo .rs{
+    color: rgb(50, 50, 226);
+}
+
+#GreedyAlgo .question{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: rgb(221, 221, 221);
+    padding: 5px;
+    text-align: center;
+}
+
+#GreedyAlgo label{
+    display: block;
+}
+
+#GreedyAlgo input{
+    width: 70px;
+    border-radius: 5px;
+}
+
+#GreedyAlgo .play-again{
+    display: none;
+}
+
+#GreedyAlgo .result{
+    text-align: center;
+}
+
+@media(max-width : 950px)
+{
+    #GreedyAlgo{
+        width: 70%;
+        height: 482px;
+    }
+}
+

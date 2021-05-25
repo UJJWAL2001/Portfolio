@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">    
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+    <section id="GreedyAlgo">
+
+        <p class="question"> 
+            You bought stuff of <span class="cost rs">Rs 50</span> and gave <span class="money rs">Rs  100 </span> to
+             the shopkeeper. So what number of each notes must be returned by him such that the total number of notes are 
+            minimum
+        </p>
+
+        <label>
+            Number of notes on <span class="rs"> Rs 10 </span>: 
+            <input class="tens" type="number" required>
+        </label>
+        <label>
+            Number of notes on <span class="rs"> Rs 5 </span>&nbsp : 
+            <input class="fives" type="number"  required>
+        </label>
+        <label>
+            Number of notes on <span class="rs"> Rs 1 </span>&nbsp : 
+            <input class="ones" type="number" required>
+        </label>
+        <button class="play-again btn btn-outline-success btn-lg">Play Again</button>
+        <button class="submit btn btn-outline-primary btn-lg">Submit</button>
+
+        <p class="result"> &nbsp </p>
+        
+    </section>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="greedy.js"></script>
+</body>
+</html>
