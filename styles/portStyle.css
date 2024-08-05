@@ -374,3 +374,7 @@ input{
 #contact{
     display: none;
 }
+
+.custom{
+    height: 120px;
+}
